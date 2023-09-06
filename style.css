@@ -48,17 +48,60 @@ body {
     color: #ccc;
 }
 
+
+/* ###################PAGE2################### */
+
 .main_container {
-    background-color: ;
+    float: left;
+    width: 40%;
+    margin-left: 280px;
+    margin-top: 40px;
+    padding: 30px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+}
+
+.cat_container {
+    float: left;
+    width: 25%;
+}
+
+.cat_container h1 {
+    width: 540px;
+    font-size: 32x;
+    color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #4aaaa5;
+    padding-bottom: 20px;
+}
+
+#cat-h,
+#cat-img {
+    float: left;
+}
+
+.cat_title {
+    width: 60%;
+    float: right;
+    line-height: 30px;
+    padding-top: 80px;
+    font-size: 20px;
+}
+
+#title-p,
+#title-p2 {
+    float: right;
+    line-height: 30px;
+    font-size: 20px;
 }
 
 .footer_container {
     background-color: #666;
     color: #CCC;
-    height: 90PX;
+    height: 90px;
     text-align: center;
     border-top: 6px solid #4aaaa5;
-    margin-top: 20px;
+    margin-top: 560px;
 }
 
 .footer_container h4 {
