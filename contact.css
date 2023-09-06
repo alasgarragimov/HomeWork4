@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url(img/concrete_seamless.png);
+}
+
+.header_container {
+    background-color: #ffffff;
+    border-bottom: 1px solid #ccc;
+    height: 90px;
+}
+
+.title_container {
+    float: left;
+    margin-left: 280px;
+    background-color: rgb(74, 170, 165);
+    padding: 25px 40px;
+}
+
+.title_container a {
+    font-size: 34px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.search_container {
+    float: right;
+    margin-right: 280px;
+    margin-top: 32px;
+}
+
+.search_container button {
+    text-align: center;
+    border: none;
+    padding: 0 14px;
+    background-color: white;
+}
+
+.search_container a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ccc;
+}
+
+
+/* ################PAGE2#################### */
+
+.right_cont {
+    width: 40%;
+    margin-top: 40px;
+    margin-left: 280px;
+    padding: 22px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+}
+
+.right_cont h1 {
+    padding-bottom: 14px;
+    font-weight: bold;
+    border-bottom: 3px solid #ccc;
+    color: rgb(74, 170, 165);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.right_cont button {
+    font-size: 20px;
+    width: 20%;
+    padding: 10px;
+    margin-top: 14px;
+    background-color: rgb(74, 170, 165);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+}
+
+.right_cont button a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.form_cont {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    color: rgb(153, 153, 159);
+}
+
+.form_cont input {
+    width: 100%;
+    padding: 6px;
+    margin-top: 6px;
+    color: #666;
+}
+
+.form_cont textarea {
+    margin: 6px 0;
+    width: 100%;
+    font-size: 16px;
+}
+
+.footer_container {
+    background-color: #666;
+    color: #CCC;
+    height: 90PX;
+    text-align: center;
+    border-top: 6px solid #4aaaa5;
+    margin-top: 30px;
+}
+
+.footer_container h4 {
+    margin: 30px auto;
+}
